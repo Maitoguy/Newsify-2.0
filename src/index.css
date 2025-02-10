@@ -1,1 +1,11 @@
-@import "tailwindcss" 
+@import "tailwindcss";
+
+@theme{
+    --font-heading: "Barlow Condensed", serif;
+    --font-body: "Merriweather", serif;
+}
+
+.custom-underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
